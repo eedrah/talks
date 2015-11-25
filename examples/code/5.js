@@ -1,3 +1,4 @@
+/* eslint no-undef: 0 */
 if (violentDog) {
     data = PoundStore.get({});
     var roomId = data.rooms.getEmptyRoom();

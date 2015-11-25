@@ -1,3 +1,7 @@
+var a = {
+    b: function () {
+        return {
+            // ...
             blueThing: 'ocean',
             unobtainium: ''
         };
@@ -7,9 +11,10 @@
         this.replaceState(this.getInitialState(nextProps));
     },
     render: function() {
-
-    if (this.props.isEmpty) {
-        return (<div className="row"><div className="col-1"><b>Nothing to show!</b></div></div>);
+        if (this.props.isEmpty) {
+            return (<div className="row"><div className="col-1"><b>Nothing to show!</b></div></div>);
+        }
+        var lastThing = this.props.recent;
+        var formated = "";
     }
-    var lastThing = this.props.recent;
-    var formated = "";
+}
