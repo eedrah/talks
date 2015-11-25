@@ -225,6 +225,11 @@ Free <!-- .element: class="fragment" -->
 
 ---
 
+##Most important thing?
+`.eslintrc` <!-- .element: class="fragment" -->
+- contains all the rules <!-- .element: class="fragment" -->
+- keep synced across all employees <!-- .element: class="fragment" -->
+
 ##Next level
 - formatter <!-- .element: class="fragment" -->
 - continuous integration <!-- .element: class="fragment" -->
