@@ -1,5 +1,5 @@
 ##Game!
-Spot the bug
+Spot the bug <!-- .element: class="fragment" -->
 
 ---
 
@@ -144,88 +144,88 @@ var a = {
 
 ##Two things in common
 
-- Found in live code
-- Can be fixed by linting
+- Found in live code <!-- .element: class="fragment" -->
+- Can be fixed by linting <!-- .element: class="fragment" -->
 
 ---
 
 ##What is linting?
 
-- Back to the game!
+- Back to the game! <!-- .element: class="fragment" -->
 
 ---
 
 ##Business implications
 
-- 1/5 time in QA
-- 1/3 time in Javascript
-- 1/4 caught by linting? 1/6? 1/10
-- = half a day of a developer per week
+- 1/5 time in QA <!-- .element: class="fragment" -->
+- 1/3 time in Javascript <!-- .element: class="fragment" -->
+- 1/4 caught by linting? 1/6? 1/10 <!-- .element: class="fragment" -->
+- = half a day of a developer per week <!-- .element: class="fragment" -->
 
-- $$$ (5k - 20k?)
+- $$$ (5k - 20k?) <!-- .element: class="fragment" -->
 
 ---
 
 ##Cost?
 
-Free
+Free <!-- .element: class="fragment" -->
 
 ---
 
 ##Where?
-- Sublime
-- Atom
-- Vim
-- Visual studio?
+- Sublime <!-- .element: class="fragment" -->
+- Atom <!-- .element: class="fragment" -->
+- Vim <!-- .element: class="fragment" -->
+- Visual studio? <!-- .element: class="fragment" -->
 
-- Toast (Windows notification popup)
-- Command line
-- Continuous integration
-
----
-
-##Critiques
-- takes too much time
-    - takes too much time fixing bugs
-    - taking me about 1 minute to go through a 'nice' file
-    - 5 minutes for a 1000 line file for the basic errors
-    - up to 30 minutes for a file with bugs
-    - ... but the alternative?
-    - when developing - quicker
-
-- disagreements with the rules
-    - customizable
-    - convincing over time
+- Toast (Windows notification popup) <!-- .element: class="fragment" -->
+- Command line <!-- .element: class="fragment" -->
+- Continuous integration <!-- .element: class="fragment" -->
 
 ---
 
 ##Critiques
-- clutter
-    - sacrifice
-    - price we pay for not using webpack / browserify
-    - all other clutter is for exceptions to the rules: No exceptions, no clutter
+- takes too much time <!-- .element: class="fragment" -->
+    - takes too much time fixing bugs <!-- .element: class="fragment" -->
+    - taking me about 1 minute to go through a 'nice' file <!-- .element: class="fragment" -->
+    - 5 minutes for a 1000 line file for the basic errors <!-- .element: class="fragment" -->
+    - up to 30 minutes for a file with bugs <!-- .element: class="fragment" -->
+        - ... but the alternative? <!-- .element: class="fragment" -->
+    - when developing - quicker <!-- .element: class="fragment" -->
 
-- Takes too much time to implement
-    - ...
+- disagreements with the rules <!-- .element: class="fragment" -->
+    - customizable <!-- .element: class="fragment" -->
+    - convincing over time <!-- .element: class="fragment" -->
+
+----
+
+##Critiques
+- clutter <!-- .element: class="fragment" -->
+    - sacrifice <!-- .element: class="fragment" -->
+    - price we pay for not using webpack / browserify <!-- .element: class="fragment" -->
+    - all other clutter is for exceptions to the rules: No exceptions, no clutter <!-- .element: class="fragment" -->
+
+- Takes too much time to implement <!-- .element: class="fragment" -->
+    - ... <!-- .element: class="fragment" -->
 
 ---
 
 ##How to implement?
-- github.com/eedrah/LinterForWork
-    - `npm install`
-    - `npm start`
+- github.com/eedrah/LinterForWork <!-- .element: class="fragment" -->
+    - <!-- .element: class="fragment" --> `npm install` <!-- .element: class="fragment" -->
+    - <!-- .element: class="fragment" --> `npm start` <!-- .element: class="fragment" -->
 
-- Toast (Powershell > v3): `make-toast`
+- Toast (Powershell > v3): <!-- .element: class="fragment" --> `make-toast` <!-- .element: class="fragment" -->
 
-- Atom
-    - See me
+- Atom <!-- .element: class="fragment" -->
+    - See me <!-- .element: class="fragment" -->
 
-- Sublime, other
-    - Google
+- Sublime, other <!-- .element: class="fragment" -->
+    - Google <!-- .element: class="fragment" -->
 
 ---
 
 ##Next level
-- formatter
-- continuous integration
-    - reject push on fail
+- formatter <!-- .element: class="fragment" -->
+- continuous integration <!-- .element: class="fragment" -->
+    - reject push on fail <!-- .element: class="fragment" -->
